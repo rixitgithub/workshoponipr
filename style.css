@@ -1,293 +1,184 @@
-/********* Common CSS Starts **********/
+/********** Common CSS Starts **********/  
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-html,
-body {
-  font-family: Roboto, sans-serif, arial;
-  font-size: 16px;
-  color: #242424;
-}
-.container {
-  width: 90%; /* Adjusted to be relative */
-  margin: 0px auto;
-}
-.main-section {
-  width: 100%;
-  float: left;
-  padding: 5% 0; /* Adjusted to be relative */
-}
-.heading {
-  font-size: 28px;
-  font-weight: 500;
-  border-bottom: 1px solid #46b7c1;
-  margin-bottom: 20px;
-  color: #46b7c1;
+    margin:0px;
+    padding:0px;
 }
 
 /********* Header HTML CSS Starts **********/
 .header {
-  background: #46b7c1;
-  padding: 6px;
+	background: #46b7c1;
+	padding: 6px;
 }
 .header b {
-  background: #fff;
-  color: red;
-  padding: 10px;
-  font-size: 20px;
+	background: #fff;
+	color: red;
+	padding:11px;
+	font-size: 22px;
 }
 .header marquee {
-  font-size: 20px;
-  color: #ffffff;
-  width: 80%;
+	font-size:20px;
+	color: #ffffff;
+	width: 80%;
 }
+/********* Header HTML CSS End **********/
+html, body {
+    font-family: Roboto, sans-serif, arial;
+    font-size: 14px;
+    color: #242424;
+}
+.container {
+    width: 100%;
+  height: 70%;
+    margin:0px ;
+}
+.main-section {
+    width: 100%;
+    float: left;
+    padding:50px 0px 40px 0px;
+}
+.heading {
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom: 1px solid #ff5722;
+    margin-bottom:25px;
+    color: #ff5722;
+}
+/********** Common CSS Ends **********/
 
-/********* Design Logo and Menu section CSS Starts **********/
+/********** Logo CSS Starts **********/  
 .logo {
-  max-width: 100%; /* Adjusted */
-  height: auto; /* Adjusted */
+    width:100%;
 }
-/*Menu Section Menu Section*/
+/********** Logo CSS Ends **********/
+
+/********** Main Menu CSS Starts **********/  
 nav {
-  float: none; /* Adjusted */
-  padding: 2% 0; /* Adjusted */
-  text-align: center; /* Adjusted */
+    width: 100%;
+    float: left;
+    background: #fe4f1a;
+    padding:15px 0px;
 }
 nav a {
-  color: black;
-  text-decoration: none;
-  font-size: 16px; /* Adjusted */
-  padding: 2px 5px; /* Adjusted */
-  font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: 1px solid #f9bbbb;
+    padding:2px 20px;
 }
+/********** Main Menu CSS Ends **********/
 
-/********* Slider CSS Starts **********/
+/********** Slider CSS Starts **********/  
 .slider img {
-  max-width: 100%; /* Adjusted */
+    width:100%;
 }
+/********** Slider CSS Ends **********/
 
-/********* Campus, Events and Notice Board section CSS Starts **********/
+/********** News, Event, Notice Board CSS Starts **********/  
 .event {
-  width: 100%; /* Adjusted */
-  margin-right: 0; /* Adjusted */
-  float: none; /* Adjusted */
-  background-color: #fff;
-  padding: 5%;
+    width: 31%;
+    margin-right: 1%;
+    float: left;
 }
-.event .heading {
-  border-bottom: 1px solid #46b7c1;
-  padding: 5px;
-  color: #fff;
-  background: #46b7c1;
-  text-align: center;
+.event div {
+    padding:10px;
+    background-color: #f0f3fa;
 }
 .event ul li {
-  margin-bottom: 5%; /* Adjusted */
-  width: 100%;
-  float: left;
-  list-style: none;
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
 }
-.event-date {
-  background: #46b7c1;
-  float: left;
-  text-align: center;
-  font-size: 14px;
-  color: #fff;
-  padding: 8px 12px;
-  margin-right: 2%; /* Adjusted */
-}
+/********** News, Event, Notice Board CSS Ends **********/
 
-/********** About Us CSS Starts **********/
-.about-us div {
-  width: 100%; /* Adjusted */
-  float: none; /* Adjusted */
-  line-height: 30px;
-  font-size: 16px; /* Adjusted */
-}
-.about-us h4 {
-  font-size: 20px; /* Adjusted */
-}
-.about-us p {
-  line-height: 30px; /* Adjusted */
-}
+/********** About Us CSS Starts **********/  
 .about-us img {
-  max-width: 100%; /* Adjusted */
-  height: auto; /* Adjusted */
+    width:24%;
+    float:left;
 }
+.about-us div {
+    width:70%;
+    margin-left:20px;
+    float:left;
+    line-height:35px;
+}
+/********** About Us CSS Ends **********/
 
-/********** School Info, Award and Certificate CSS Starts **********/
-.award p {
-  width: 100%;
-  float: none; /* Adjusted */
-  font-size: 16px;
-}
-.award img {
-  max-width: 100%; /* Adjusted */
-}
-.award b {
-  min-width: auto; /* Adjusted */
-  float: none; /* Adjusted */
-  margin-bottom: 5%; /* Adjusted */
-}
-.award h3 {
-  font-size: 20px; /* Adjusted */
-  margin-bottom: 5%; /* Adjusted */
-  text-align: center;
-}
-
-/********* Testimonial Section CSS Starts **********/
+/********** Testimonial CSS Starts **********/  
 .testimonial {
-  width: 100%; /* Adjusted */
-  float: none; /* Adjusted */
-  margin-right: 0; /* Adjusted */
+    width: 380px;
+    float: left;
+    margin-right:10px;
 }
 .testimonial-text {
-  background: #46b7c1;
-  padding: 5%; /* Adjusted */
-  line-height: 25px; /* Adjusted */
-  border-radius: 10px;
-  color: #fff;
-  font-size: 16px; /* Adjusted */
-  text-align: center;
+    background: #f0f3fa;
+    padding: 20px;
+    line-height: 35px;
+    border-radius: 10px;
 }
 .testimonial-detail {
-  float: none; /* Adjusted */
-  margin-top: 2%; /* Adjusted */
-  text-align: center; /* Adjusted */
+    float:left;
+    margin-top:10px;
 }
 .testimonial-img {
-  float: none; /* Adjusted */
+    float:left;
 }
 .testimonial-img img {
-  border-radius: 50%;
-  max-width: 100%; /* Adjusted */
+    border-radius:50%;
 }
 .testimonial-name {
-  margin-left: 0; /* Adjusted */
-  float: none; /* Adjusted */
-  text-align: center; /* Adjusted */
+    margin-left:10px;
+    float:left;
 }
 .testimonial-name h5 {
-  font-size: 16px; /* Adjusted */
-  margin-top: 5%; /* Adjusted */
+    font-size:18px;
+    margin-top:8px;
 }
+/********** Testimonial CSS Ends **********/
 
-/********* Gallery section CSS Starts **********/
+/********** Gallery CSS Starts **********/  
 .gallery img {
-  width: 48%; /* Adjusted */
-  margin: 1%; /* Adjusted */
+    width: 24%;
 }
+/********** Gallery CSS Ends **********/
 
-/********* Footer section CSS Starts **********/
-.footer {
-  background-color: #46b7c1;
-  padding: 5% 0;
-  width: 100%;
-  float: left;
+/********** Placement CSS Starts **********/  
+.placement img {
+    border:1px solid #dfdfdf;
 }
-.footer-logo {
-  max-width: 100%; /* Adjusted */
+/********** Placement CSS Ends **********/
+
+/********** Footer CSS Starts **********/  
+.footer {
+    background-color:#1f2836;
+    padding:70px 0px;
+    width:100%;
+    float:left;
 }
 .footer-sect {
-  width: 100%;
-  float: none; /* Adjusted */
-  text-align: center;
-  margin-top: 5%; /* Adjusted */
+    width:33%;
+    float:left;
 }
-.footer-sect a {
-  color: white;
-  margin: 0 2%; /* Adjusted */
-  text-decoration: none;
+.footer-sect h2 {
+    color:#fff;
+    margin-bottom: 20px;
 }
-
-/* CSS for Hamburger Menu */
-.hamburger-menu {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
+.footer-sect p {
+    color: #fff;
+    line-height: 22px;
+    padding:0px 30px 20px 0px;
 }
-
-.bar {
-  width: 30px;
-  height: 3px;
-  background-color: #000;
-  margin: 3px 0;
-  transition: transform 0.3s; /* Added transition for smooth animation */
+.footer-menu li {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
 }
-
-.active .bar:nth-child(1) {
-  transform: rotate(-45deg) translate(-9px, 6px);
+.footer-menu li a {
+    color:#fff;
+    text-decoration: none;
 }
-
-.active .bar:nth-child(2) {
-  opacity: 0;
+.footer-contact li {
+    margin-bottom:15px;
+    list-style: none;
+    color: #fff;
 }
-
-.active .bar:nth-child(3) {
-  transform: rotate(45deg) translate(-8px, -8px);
-}
-
-.mobile-nav {
-  position: relative;
-}
-
-.mobile-nav-menu {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #fff;
-  padding: 20px;
-  z-index: 1000;
-  overflow-y: auto; /* Enable scrolling if needed */
-}
-
-.mobile-nav-menu.active {
-  display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-}
-
-.mobile-nav-menu a {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 10px; /* Add some spacing between links */
-}
-
-.close-btn {
-  display: none;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.hamburger-menu.active .close-btn {
-  display: block;
-}
-
-@media only screen and (max-width: 578px) {
-  .ornav {
-    display: none;
-  }
-  .close-btn.active {
-    display: block;
-  }
-}
-@media only screen and (min-width: 579px) {
-  .hamburger-menu {
-    display: none; /* Hide the hamburger menu */
-  }
-}
+/********** Footer CSS Ends **********/
