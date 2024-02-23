@@ -163,7 +163,9 @@ nav a {
 	justify-content: space-around; 
         align-items: center;
 }
-
+.per{
+	text-align:center;
+}
 
 /********** Footer CSS Starts **********/  
 .footer {
