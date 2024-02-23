@@ -151,6 +151,11 @@ nav a {
 }
 /********** Placement CSS Ends **********/
 
+.map {
+  margin-left: 30%;
+}
+
+
 /********** Footer CSS Starts **********/  
 .footer {
     background-color:#1f2836;
