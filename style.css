@@ -158,6 +158,11 @@ nav a {
   margin-left: 30%;
 }
 
+.team{
+	display:flex;
+	flex-direction:column;
+}
+
 
 /********** Footer CSS Starts **********/  
 .footer {
