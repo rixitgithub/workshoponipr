@@ -18,9 +18,29 @@
       </div>
     </div>
     <!------ Header HTML Ends ------->
+    <div class="mobile-nav">
+      <!-- Hamburger Menu -->
+    <div class="mobile-nav">
+      <!-- Hamburger Menu Icon -->
+      <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+      </div>
 
+      <!-- Navigation Menu -->
+      <nav class="mobile-nav-menu">
+        <div class="close-btn">&times;</div>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <!-- Add your other navigation links here -->
+      </nav>
+
+      <!-- Close Button -->
+  </div>
     <!------ Design Logo And Main Menu Section HTML Startss ------->
-    <div class="container">
+    <div class="container ornav">
       <!-------------------------LOGO SECTION--------------------------->
       <img src="images/logo.png" class="logo" />
       <!-------------------------MENU SECTION-------------------------->
@@ -338,5 +358,29 @@
       </div>
     </div>
     <!--------- Footer HTML End -------->
+    <script>
+     document.addEventListener('DOMContentLoaded', function() {
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const closeBtn = document.querySelector('.close-btn');
+    const navMenu = document.querySelector('.mobile-nav-menu');
+    const mobileNav = document.querySelector('.mobile-nav');
+
+    hamburgerMenu.addEventListener('click', function() {
+        navMenu.classList.toggle('active');
+        mobileNav.classList.toggle('full-screen');
+        hamburgerMenu.classList.toggle('active');
+        closeBtn.classList.toggle('active');
+    });
+
+    closeBtn.addEventListener('click', function() {
+        navMenu.classList.remove('active');
+        mobileNav.classList.remove('full-screen');
+        hamburgerMenu.classList.remove('active');
+        closeBtn.classList.remove('active');
+    });
+});
+
+
+  </script>
   </body>
 </html>
