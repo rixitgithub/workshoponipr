@@ -42,15 +42,17 @@ html, body {
 .heading {
 	margin-left:2rem;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 540;
     border-bottom: 1px solid #ff5722;
     margin-bottom:25px;
     color: #ff5722;
 }
 
 #reachu{
-    margin-left: 18rem;
+   margin-left: 21rem;
+ 
 }
+
 /********** Common CSS Ends **********/
 
 /********** Logo CSS Starts **********/  
@@ -87,17 +89,20 @@ nav a {
 
 /********** News, Event, Notice Board CSS Starts **********/  
 .event {
-    width: 31%;
+    width: 30%;
     margin-right: 1%;
+    margin-left: 0.33%;
     float: left;
     inline-size: 32%;
 }
 .event div {
     padding:10px;
     background-color: #f0f3fa;
+  
 }
 .event ul li {
     margin-bottom: 20px;
+    margin-left: 2%;
     width: 100%;
     float: left;
 }
@@ -161,7 +166,8 @@ nav a {
 /********** Placement CSS Ends **********/
 
 .map {
-  margin-left: 30%;
+    background-color: transparent;
+  margin-left: 70%;
 }
 
 .team,.coord{
