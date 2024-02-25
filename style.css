@@ -109,13 +109,15 @@ nav a {
 /********** News, Event, Notice Board CSS Ends **********/
 
 /********** About Us CSS Starts **********/  
+.about-us{
+margin-left:2rem;
+}
 .about-us img {
     width:24%;
     float:left;
 }
 .about-us div {
-    width:70%;
-    margin-left:20px;
+    margin-left:10rem;
     float:left;
     line-height:35px;
 }
