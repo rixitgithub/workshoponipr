@@ -244,6 +244,8 @@ nav a {
     100% { opacity: 1; }
 }
 .butflex{
+	margin-top:-2rem;
+	margin-bottom:2rem;
 	display:flex;
 	align-items:center;
 	justify-content:space-evenly;
