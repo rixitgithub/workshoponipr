@@ -220,3 +220,24 @@ nav a {
     
 }
 /********** Footer CSS Ends **********/
+
+.button1{
+	background-color: white;
+	color: black;
+	border-style: 1px solid black;
+}
+.button1:hover{
+	background-color: black;
+	color: white;
+	border-style: 1px solid white;
+	transition: 1s ease-in-out;
+}
+.blink-button {
+    animation: blink-animation 1s infinite; /* Adjust the duration as needed */
+}
+
+@keyframes blink-animation {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
