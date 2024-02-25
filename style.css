@@ -243,6 +243,11 @@ nav a {
     50% { opacity: 0; }
     100% { opacity: 1; }
 }
+.flexbut{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
 .link1{
 	list-decoration:none;
 	color:black;
