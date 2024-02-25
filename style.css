@@ -117,7 +117,8 @@ margin-left:2rem;
     float:left;
 }
 .about-us div {
-    margin-left:10rem;
+	width:70%;
+    margin-left:2rem;
     float:left;
     line-height:35px;
 }
