@@ -180,6 +180,10 @@ margin-left:2rem;
 	justify-content: space-around; 
         align-items: center;
 }
+
+.coord{
+    margin-left: 20%;
+}
 .per{
 	text-align:center;
 }
