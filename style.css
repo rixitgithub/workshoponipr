@@ -268,3 +268,30 @@ margin-left:2rem;
 .button1 a{
 color:white;
 }
+
+.main-section1 {
+	width:100%;
+    float: left;
+    padding:50px 0px 40px 0px;
+}
+
+.heading1 {
+	margin-left:2rem;
+    font-size: 22px;
+    font-weight: 540;
+    border-bottom: 1px solid #ff5722;
+    margin-bottom:25px;
+    color: #ff5722;
+}
+.cflex{
+  text-align:center;
+  justify-content:space-evenly;
+display:flex;
+  align-items:center;
+}
+.crgipt {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 110%;
+}
+.crgipt h2{
+color:#ff5722;
+}
