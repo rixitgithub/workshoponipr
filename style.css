@@ -35,6 +35,7 @@ html, body {
     margin:0px ;
 }
 .main-section {
+	width:100%;
     float: left;
     padding:50px 0px 40px 0px;
 }
@@ -255,8 +256,10 @@ margin-left:2rem;
 	justify-content:space-evenly;
 }
 .link1{
-	color:white;
 	text-decoration:none;
 	color:#ff5722;
 }
 
+.button1 a{
+color:white;
+}
