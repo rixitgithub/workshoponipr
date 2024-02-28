@@ -176,7 +176,9 @@ margin-left:2rem;
 
 .map {
     background-color: transparent;
-  margin-left: 70%;
+  display:flex;
+	align-items:center;
+	justify-content:center;
 }
 
 .team,.coord{
