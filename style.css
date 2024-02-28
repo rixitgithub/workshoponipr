@@ -88,7 +88,9 @@ nav a {
 /********** Slider CSS Ends **********/
 
 /********** News, Event, Notice Board CSS Starts **********/  
-
+.obj{
+height:414px
+}
 
 .event {
     width: 30%;
