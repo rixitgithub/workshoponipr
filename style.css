@@ -190,10 +190,11 @@ margin-left:2rem;
 
 /********** Footer CSS Starts **********/  
 .footer {
-    background-color:#1f2836;
-    padding:70px 0px;
-    width:100%;
-    float:left;
+    margin-bottom: -16rem;
+    background-color: #1f2836;
+    padding: 72px 115px;
+    width: 100%;
+    float: left;
     
 }
 .footer-sect {
