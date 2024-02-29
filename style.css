@@ -312,9 +312,19 @@ color:white;
         flex-basis: 45%; /* Adjusting width for smaller screens */
     }
 }
+@media only screen and (max-width: 768px) {
+    .try p {
+	font-size:1.5rem;
+    }
+}
 
 @media only screen and (max-width: 480px) {
     .crgipt {
         flex-basis: 100%; /* Making each item take full width on smaller screens */
+    }
+}
+@media only screen and (max-width: 480px) {
+    .try p {
+	font-size:1rem;
     }
 }
