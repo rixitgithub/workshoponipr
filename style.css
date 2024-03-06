@@ -5,7 +5,7 @@
 }
 html {
 
-	width:98.2%;
+	width:98%;
   scroll-behavior: smooth;
 }
 
@@ -66,7 +66,7 @@ width: 100%;
 
 /********** Main Menu CSS Starts **********/  
 nav {
-    width: 100%;
+    width: 101.9%;
     float: left;
     background: #fe4f1a;
     padding:15px 0px;
