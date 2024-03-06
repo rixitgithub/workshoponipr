@@ -4,6 +4,8 @@
     padding:0px;
 }
 html {
+
+	width:99%;
   scroll-behavior: smooth;
 }
 
