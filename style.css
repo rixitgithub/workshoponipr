@@ -132,7 +132,7 @@ margin-left:2rem;
 
 /********** Testimonial CSS Starts **********/  
 .testimonial {
-    width: 380px;
+    width: auto;
     float: left;
     margin-right:10px;
 }
