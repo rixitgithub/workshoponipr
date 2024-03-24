@@ -172,9 +172,18 @@ margin-left: 2%;
 }
 
 .button {
-    position: absolute;
-	width:100%
-    top:50%
+    display: block; /* Make the link a block-level element */
+    width: 50%; /* Set width to 50% */
+    margin: auto; /* Center horizontally */
+    text-align: center; /* Center the button text */
+    text-decoration: none; /* Remove underline from the link */
+    background-color: #ff8800; /* Button background color */
+    padding: 10px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+}
+.button:hover {
+    background-color: #ff7700; /* Darker green on hover */
 }
 /********** Gallery CSS Ends **********/
 
