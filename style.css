@@ -169,7 +169,7 @@ margin-left:2rem;
 .gallery img {
     width: 24%;
 margin-left: 10%;
-	display:grid;
+	display:flexbox;
 }
 /********** Gallery CSS Ends **********/
 
