@@ -170,6 +170,12 @@ margin-left:2rem;
     width: 22%;
 margin-left: 2%;
 }
+
+.button {
+    position: absolute;
+	width:100%
+    top:50%
+}
 /********** Gallery CSS Ends **********/
 
 /********** Placement CSS Starts **********/  
